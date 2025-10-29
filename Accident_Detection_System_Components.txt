@@ -1,0 +1,27 @@
+Accident Detection System Project - Essential Components List
+
+1. STM32F407G-DISC1 Board - Main controller
+2. SIM900A GSM Module (with antenna) - Sends SMS alerts
+3. NEO-6M GPS Module - Provides latitude and longitude
+4. SW-420 Vibration Sensor - Detects accident or shock
+5. MQ-2 Gas Sensor - Alcohol detection
+6. IR Sensor / Seat Belt Sensor - Monitors seat belt status
+7. Buzzer - Audible alert during accident or warning
+8. Red LED - Visual indication of alert
+9. 16x2 LCD with I2C Module - Displays system status
+10. 5V Relay Module (1 Channel) - Demonstrates cut-off or signal control
+11. DC Motor (3–5V) - Simulates vehicle engine or motion
+12. Push Button - Manual test or reset function
+13. 12V 1A Adapter + Buck Converter (LM2596) - Power supply and regulation
+14. Connecting Wires, Breadboard, and Jumpers - For circuit assembly and testing
+
+Summary of Functions:
+- Accident Detection: SW-420 Vibration Sensor
+- Alcohol Detection: MQ-2 Gas Sensor
+- Seat Belt Monitoring: IR Sensor / Seat Belt Switch
+- GPS Location Tracking: NEO-6M Module
+- SMS Alert System: SIM900A GSM Module
+- Visual and Audio Alerts: Red LED + Buzzer
+- Power Management: 12V Adapter + Buck Converter
+- User Interface: LCD 16x2 I2C
+- System Control: Push Button
